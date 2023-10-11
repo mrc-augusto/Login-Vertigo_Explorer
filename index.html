@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@400;600;700&display=swap" rel="stylesheet">
+  <!-- CSS -->
+  <link rel="stylesheet" href="style.css">
+  <!-- JS -->
+  <script src="main.js" defer></script> 
+  <title>Login-Vertigo</title>
+</head>
+<body>
+  <div id="page" class="flex">
+    <div>
+      <header>
+        <img src="assets/logo.svg" alt="Imagem do logo da empresa">
+      </header>
+      <main>
+        <div class="headline">
+          <h1>Acesse a plataforma</h1>
+          <p>Faça login ou registre-se para começar a construir seus proetos ainda hoje.</p>
+        </div> 
+        <form>
+          <div class="input-wrapper">
+            <label for="email">Email</label>
+            <input type="email" id="email" placeholder="Digite seu email" required>
+          </div>
+          <div class="input-wrapper">
+            <div class="label-wrapper flex">
+              <label for="password">Senha</label>
+              <a href="#">Esqueceu a senha?</a>
+            </div>
+            <input type="password" id="password" placeholder="Digite sua senha">
+            <img class="enable-password eye" src="assets/hide-password.svg" alt="imagem olho fechado">
+            <img class="show-password eye hide" src="assets/show-passowrd.svg" alt="imagem olho aberto">
+          </div>
+          <button type="submit">Entrar</button>
+  
+          <div class="create-account flex">
+            <p>Ainda não tem uma conta?</p>
+            <a href="#">Inscreva-se</a>
+          </div>
+        </form>
+      </main>
+    </div>
+    <img src="assets/bg-img.jpg" alt="">
+  </div>  
+</body>
+</html>
